@@ -6,23 +6,10 @@ disp(datetime('now'));
 tic;
 
 % Specify all file locations here for convenience. 
-% Address_root = 'D:\TDA Project\Phase 2 Option\Tests\CTAA04_020419\AE\';
-% Address_root = 'D:\TDA Project\Phase 2 Option\Tests\CTAA05_020519\AE\';
-% Address_root = 'D:\TDA Project\Phase 2 Option\Tests\CTAA06_020619\AE\';
-% Address_root = 'D:\TDA Project\Phase 2 Option\Tests\CTAA07_020619\AE\';
-% Address_root = 'C:\Users\foadkrmn\Documents\Foad\TDA\CTAA08_020719\AE\';
-% Address_root = 'C:\Users\foadkrmn\Documents\Foad\TDA\CTAA09_021919\AE\';
-% Address_root = 'D:\Foad\TDA\CTAA10_022019\AE\';
-% Address_root = 'D:\Foad\TDA\CTAA12_022219\AE\';
-% Address_root = 'D:\Foad\TDA\CTAA13_022519\AE\';
-% Address_root = 'D:\Foad\TDA\CTAA14_022619\AE\';
-Address_root = 'C:\Users\foadkrmn\Documents\Foad\TDA\CTAA15_022719\AE\';
-% Address_root = 'C:\Users\foadkrmn\Documents\Foad\TDA\CTAA16_022819\AE\';
+Address_root = '~\AE\';
 
 % Specify number of Para data files for each test.
-para_num = 12; % CTAA04: 10 -- CTAA05: 1  -- CTAA06: 2  -- CTAA07: 2  -- CTAA08: 8
-               % CTAA09: 11 -- CTAA10: 13 -- CTAA11: 15 -- CTAA12: 11
-               % CTAA13: 11 -- CTAA14: 13 -- CTAA15: 12 -- CTAA16: 11
+para_num = 12; 
 
 % Import hit filtered data
 HitData_Ch1 = importdata([Address_root,'Results\Ch1_load_deltaT_filtered.txt'],' ',1);
