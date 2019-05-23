@@ -6,13 +6,13 @@ clear all
 clc
 
 % Define file locations
-ch1kd = 'G:\My Drive\Research\Fatigue on composites (with Dr Modarres)\TDA Project\Phase 2 Option\Tests\5RAA07_102218\AE\Results\Bin Width Study\Ch1kd.csv';
-ch2kd = 'G:\My Drive\Research\Fatigue on composites (with Dr Modarres)\TDA Project\Phase 2 Option\Tests\5RAA07_102218\AE\Results\Bin Width Study\Ch2kd.csv';
+ch1kd = '~\AE\Results\Bin Width Study\Ch1kd.csv';
+ch2kd = '~\AE\Results\Bin Width Study\Ch2kd.csv';
 
-skew = 'G:\My Drive\Research\Fatigue on composites (with Dr Modarres)\TDA Project\Phase 2 Option\Tests\5RAA07_102218\AE\Results\Bin Width Study\Skewnes Coefficient.csv';
-kurt = 'G:\My Drive\Research\Fatigue on composites (with Dr Modarres)\TDA Project\Phase 2 Option\Tests\5RAA07_102218\AE\Results\Bin Width Study\Kutosis Coefficient.csv';
+skew = '`\AE\Results\Bin Width Study\Skewnes Coefficient.csv';
+kurt = '~\AE\Results\Bin Width Study\Kutosis Coefficient.csv';
 
-WaveAddress_root = 'G:\My Drive\Research\Fatigue on composites (with Dr Modarres)\TDA Project\Phase 2 Option\Tests\5RAA07_102218\AE\Waveform\';
+WaveAddress_root = '~\AE\Waveform\';
 
 % Import data
 Ch1_waveforms = csvread(ch1kd);
